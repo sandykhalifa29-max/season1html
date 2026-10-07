@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#footer">footer</a>
+            <button>Click Me</button>
+        </nav>
+    </header>
+
+
+      
+    
+    <section id="hero">
+        <div>
+        <h1 class="hero">Welcome to My Website</h1>
+       <video width="320" height="240" controls>
+            <source src="./[@DisneyMasry](1).mp4" type="video/mp4"></video>
+            Your browser does not support the video tag.
+      
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eius impedit omnis fugiat animi repudiandae hic veritatis aliquam in facilis autem nobis quos sit, expedita sed assumenda ex. Aut dignissimos voluptas quo numquam excepturi nesciunt ex minima voluptatem in at?</p>
+            </div>
+    </section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eius impedit omnis fugiat animi repudiandae hic veritatis aliquam in facilis autem nobis quos sit, expedita sed assumenda ex. Aut dignissimos voluptas quo numquam excepturi nesciunt ex minima voluptatem in at?</p>
+    </section>
+<section id="contact">
+    <h2 class="hero">Contact Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eius impedit omnis fugiat animi repudiandae hic veritatis aliquam in facilis autem nobis quos sit, expedita sed assumenda ex. Aut dignissimos voluptas quo numquam excepturi nesciunt ex minima voluptatem in at?</p>
+    </section>
+
+
+    <footer id="footer">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+</body>
+
+
+<script>
+
+
+
+
+let result = valueA ?? valueB;
+
+let username = null;
+let defaultName = "Guest";
+
+let displayName = username ?? defaultName;
+console.log(displayName); // Output: "Guest"
+
+let userScore = 0; // 0 is a valid score, but it is "falsy"
+
+// Using Logical OR (||) - Unexpected behavior!
+let scoreDisplay = userScore || 10;
+console.log(scoreDisplay); // Output: 10 (treats 0 as missing value)
+
+// Using Nullish Coalescing (??) - Correct behavior!
+let fixedScoreDisplay = userScore ?? 10;
+console.log(fixedScoreDisplay); // Output: 0 (preserves 0 as a valid value)
+
+
+
+
+
+
+document.getElementById("myLamp").src = "bulb_on.png";
+
+
+      
+    </script>
+</html>
